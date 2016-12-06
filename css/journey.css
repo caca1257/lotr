@@ -1,7 +1,5 @@
 body{
-	/*background-image: url(../img/subwaymap.png);
-	background-repeat: no-repeat;
-	background-size:84.5%;*/
+
 	background-color: #303034;
 }
 img{
@@ -24,65 +22,7 @@ img{
 	position:absolute;
 }
 
-/*#one, #two, #three, #four, #five, #six p{
-	color: #774f27;
-	font-size: 2.4em;
-	font-style: italic;
-}
-#seven, #eight, #nine, #ten,
-#eleven, #twelve p{
-	color: #dab56c;
-	font-size: 2.4em;
-	font-style: italic;
-}
-#merry-one, #merry-two, #merry-three, #merry-four, #merry-five, #merry-six,
-#merry-seven, #merry-eight  p{
-	color: #99cc00;
-	font-size: 2.4em;
-	font-style: italic;
-}
-#pip-one, #pip-two, #pip-three, #pip-four, #pip-five, #pip-six,
-#pip-seven, #pip-eight p{
-	color: #ff6600;
-	font-size: 2.4em;
-	font-style: italic;
 
-}
-#gandalf-one, #gandalf-two, #gandalf-three, #gandalf-four, #gandalf-five,
-#gandalf-six, #gandalf-seven, #gandalf-eight, #gandalf-nine p{
-	color: #ffffff;
-	font-size: 2.4em;
-	font-style: italic;
-}
-#bor-one, #bor-two, #bor-three p{
-	color: #993366;
-	font-size: 2.4em;
-	font-style: italic;
-	
-
-}
-#aragon-one, #aragon-two, #aragon-three, #aragon-four, #aragon-five, #aragon-six,
-#aragon-seven, #aragon-eight, #aragon-nine, #aragon-ten p{
-	color: #aa2222;
-	font-size: 2.4em;
-	font-style: italic;
-}
-#lego-one, #lego-two, #lego-three, #lego-four, #lego-five, #lego-six, #lego-seven,
-#lego-eight, #lego-nine, #lego-ten p{
-	color: #3366ff;
-	font-size: 2.4em;
-	font-style: italic;
-}
-#gimli-one, #gimli-two, #gimli-three, #gimli-four, #gimli-five, #gimli-six,
-#gimli-seven, #gimli-eight, #gimli-nine, #gimli-ten p{
-	color: #0a6636;
-	font-size: 2.4em;
-	font-style: italic;
-}*/
-/*#video-frodo:-webkit-full-screen { cursor:zoom-out; }
-#video-frodo:-moz-full-screen { cursor:zoom-out; }
-#video-frodo:-ms-fullscreen { cursor:zoom-out; }
-#video-frodo:fullscreen { cursor:zoom-out; }*/
 #frodo-rive, #frodo-loth, #frodo-gate, #frodo-shelobs, #merpip-mines, #merpip-isengard,
 #aragon-helm, #aragon-minas, #legolas-minas, #gandalf-rivendell, #gandalf-mines,
 #gandalf-fangorn{
@@ -101,7 +41,7 @@ div#one, #two, #three, #four, #five {
   color: #774f27;
   border: 1px solid #1a1a1a;
   font-size: 1.2em;
-   font-style: italic;
+  font-style: italic;
 }
 /*frodo*/
 div#six{
