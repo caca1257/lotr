@@ -1,0 +1,250 @@
+body{
+	/*background-image: url(../img/subwaymap.png);
+	background-repeat: no-repeat;
+	background-size:84.5%;*/
+	background-color: #303034;
+}
+img{
+	width: 1280px;
+	height: 876px;
+	position: relative;
+	padding: 0px;
+}
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten,
+#eleven, #twelve,#merry-one, #merry-two, #merry-three, #merry-four, #merry-five,
+#merry-six, #merry-seven, #merry-eight, #pip-one, #pip-two, #pip-three, #pip-four,
+#pip-five, #pip-six, #pip-seven, #pip-eight, #gandalf-one, #gandalf-two, #gandalf-three,
+#gandalf-four, #gandalf-five, #gandalf-six, #gandalf-seven, #gandalf-eight, #gandalf-nine,
+#bor-one, #bor-two, #bor-three, #aragon-one, #aragon-two, #aragon-three, #aragon-four,
+#aragon-five, #aragon-six, #aragon-seven, #aragon-eight, #aragon-nine, #aragon-ten,
+#lego-one, #lego-two, #lego-three, #lego-four, #lego-five, #lego-six, #lego-seven, #lego-eight,
+#lego-nine, #lego-ten, #gimli-one, #gimli-two, #gimli-three, #gimli-four, #gimli-five, #gimli-six,
+#gimli-seven, #gimli-eight, #gimli-nine, #gimli-ten {
+	display: none;
+	position:absolute;
+}
+
+/*#one, #two, #three, #four, #five, #six p{
+	color: #774f27;
+	font-size: 2.4em;
+	font-style: italic;
+}
+#seven, #eight, #nine, #ten,
+#eleven, #twelve p{
+	color: #dab56c;
+	font-size: 2.4em;
+	font-style: italic;
+}
+#merry-one, #merry-two, #merry-three, #merry-four, #merry-five, #merry-six,
+#merry-seven, #merry-eight  p{
+	color: #99cc00;
+	font-size: 2.4em;
+	font-style: italic;
+}
+#pip-one, #pip-two, #pip-three, #pip-four, #pip-five, #pip-six,
+#pip-seven, #pip-eight p{
+	color: #ff6600;
+	font-size: 2.4em;
+	font-style: italic;
+
+}
+#gandalf-one, #gandalf-two, #gandalf-three, #gandalf-four, #gandalf-five,
+#gandalf-six, #gandalf-seven, #gandalf-eight, #gandalf-nine p{
+	color: #ffffff;
+	font-size: 2.4em;
+	font-style: italic;
+}
+#bor-one, #bor-two, #bor-three p{
+	color: #993366;
+	font-size: 2.4em;
+	font-style: italic;
+	
+
+}
+#aragon-one, #aragon-two, #aragon-three, #aragon-four, #aragon-five, #aragon-six,
+#aragon-seven, #aragon-eight, #aragon-nine, #aragon-ten p{
+	color: #aa2222;
+	font-size: 2.4em;
+	font-style: italic;
+}
+#lego-one, #lego-two, #lego-three, #lego-four, #lego-five, #lego-six, #lego-seven,
+#lego-eight, #lego-nine, #lego-ten p{
+	color: #3366ff;
+	font-size: 2.4em;
+	font-style: italic;
+}
+#gimli-one, #gimli-two, #gimli-three, #gimli-four, #gimli-five, #gimli-six,
+#gimli-seven, #gimli-eight, #gimli-nine, #gimli-ten p{
+	color: #0a6636;
+	font-size: 2.4em;
+	font-style: italic;
+}*/
+/*#video-frodo:-webkit-full-screen { cursor:zoom-out; }
+#video-frodo:-moz-full-screen { cursor:zoom-out; }
+#video-frodo:-ms-fullscreen { cursor:zoom-out; }
+#video-frodo:fullscreen { cursor:zoom-out; }*/
+#frodo-rive, #frodo-loth, #frodo-gate, #frodo-shelobs, #merpip-mines, #merpip-isengard,
+#aragon-helm, #aragon-minas, #legolas-minas, #gandalf-rivendell, #gandalf-mines,
+#gandalf-fangorn{
+  width: 100%;
+  height: 100%;
+  display: none;
+
+}
+/*for frodo*/
+div#one, #two, #three, #four, #five {
+  display: none;
+  position: absolute;
+  width: 280px;
+  padding: 10px;
+  background:#303034; /*rgba(255,255,255,0.8);*/
+  color: #774f27;
+  border: 1px solid #1a1a1a;
+  font-size: 1.2em;
+   font-style: italic;
+}
+/*frodo*/
+div#six{
+  display: none;
+  position: absolute;
+  width: 280px;
+  padding: 10px;
+  background:#303034; /*rgba(255,255,255,0.8);*/
+  color: #774f27;
+  border: 1px solid #1a1a1a;
+  font-size: 1.1em;
+   font-style: italic;
+}
+/*sam*/
+div#seven, #eight, #nine, #ten, #eleven{
+	display: none;
+  position: absolute;
+  width: 280px;
+  padding: 10px;
+  background:#303034; /*rgba(255,255,255,0.8);*/
+  color: #dab56c;
+  border: 1px solid #1a1a1a;
+  font-size: 1.2em;
+   font-style: italic;
+}
+div#twelve{
+	display: none;
+  position: absolute;
+  width: 280px;
+  padding: 10px;
+  background:#303034; /*rgba(255,255,255,0.8);*/
+  color: #dab56c;
+  border: 1px solid #1a1a1a;
+  font-size: 1.2em;
+   font-style: italic;
+}
+
+/*merry*/
+div#merry-one, #merry-two, #merry-three, #merry-four, #merry-five,
+#merry-six, #merry-seven{
+	display: none;
+  position: absolute;
+  width: 280px;
+  padding: 10px;
+  background:#303034; /*rgba(255,255,255,0.8);*/
+  color: #99cc00;
+  border: 1px solid #1a1a1a;
+  font-size: 1.2em;
+   font-style: italic;
+}
+div#merry-eight{
+	display: none;
+  position: absolute;
+  width: 280px;
+  padding: 10px;
+  background:#303034; /*rgba(255,255,255,0.8);*/
+  color: #99cc00;
+  border: 1px solid #1a1a1a;
+  font-size: 1.2em;
+   font-style: italic;
+}
+div#pip-one, #pip-two, #pip-three, #pip-four, #pip-five, #pip-six,
+#pip-seven{
+	display: none;
+  position: absolute;
+  width: 280px;
+  padding: 10px;
+  background:#303034; /*rgba(255,255,255,0.8);*/
+  color: #ff6600;
+  border: 1px solid #1a1a1a;
+  font-size: 1.2em;
+   font-style: italic;
+}
+div#pip-eight{
+	display: none;
+  position: absolute;
+  width: 280px;
+  padding: 10px;
+  background:#303034; /*rgba(255,255,255,0.8);*/
+  color: #ff6600;
+  border: 1px solid #1a1a1a;
+  font-size: 1.2em;
+   font-style: italic;
+}
+div#gandalf-one, #gandalf-two, #gandalf-three, #gandalf-four, #gandalf-five,
+#gandalf-six,#gandalf-seven,#gandalf-eight, #gandalf-nine{
+	display: none;
+  position: absolute;
+  width: 280px;
+  padding: 10px;
+  background:#303034; /*rgba(255,255,255,0.8);*/
+  color: #ffffff;
+  border: 1px solid #1a1a1a;
+  font-size: 1.2em;
+  font-style: italic;
+}
+div#bor-one, #bor-two, #bor-three{
+	display: none;
+  position: absolute;
+  width: 280px;
+  padding: 10px;
+  background:#303034; /*rgba(255,255,255,0.8);*/
+  color:#993366;
+  border: 1px solid #1a1a1a;
+  font-size: 1.2em;
+  font-style: italic;
+}
+div#aragon-one, #aragon-two, #aragon-three, #aragon-four, #aragon-five, 
+#aragon-six, #aragon-seven, #aragon-eight, #aragon-nine,
+#aragon-ten{
+	display: none;
+  position: absolute;
+  width: 280px;
+  padding: 10px;
+  background:#303034; /*rgba(255,255,255,0.8);*/
+  color:#aa2222;
+  border: 1px solid #1a1a1a;
+  font-size: 1.2em;
+  font-style: italic;
+}
+div#lego-one, #lego-two, #lego-three, #lego-four, #lego-five, 
+#lego-six, #lego-seven, #lego-eight, #lego-nine,
+#lego-ten{
+	display: none;
+  position: absolute;
+  width: 280px;
+  padding: 10px;
+  background:#303034; /*rgba(255,255,255,0.8);*/
+  color:#3366ff;
+  border: 1px solid #1a1a1a;
+  font-size: 1.2em;
+  font-style: italic;
+}
+div#gimli-one, #gimli-two, #gimli-three, #gimli-four, #gimli-five, 
+#gimli-six, #gimli-seven, #gimli-eight, #gimli-nine,
+#gimli-ten{
+	display: none;
+  position: absolute;
+  width: 280px;
+  padding: 10px;
+  background:#303034; /*rgba(255,255,255,0.8);*/
+  color:#0a6636;
+  border: 1px solid #1a1a1a;
+  font-size: 1.2em;
+  font-style: italic;
+}
