@@ -14,6 +14,7 @@ frodo.onmouseout = function() {
   document.getElementById('one').style.display = 'none';
 }*/
 
+//start of frodos
 $(function(){
   var moveLeft = 20;
   var moveDown = 10;
@@ -74,13 +75,7 @@ $(function(){
   });
 });
 
-/*var frodo = document.getElementById('blackgate');
-frodo.onmouseover = function() {
-  document.getElementById('four').style.display = 'block';
-}
-frodo.onmouseout = function() {
-  document.getElementById('four').style.display = 'none';
-}*/
+
 $(function(){
   var moveLeft = -180;
   var moveDown = 10;
@@ -141,14 +136,9 @@ $(function(){
     $("div#six").css('top', e.pageY + moveDown).css('left', e.pageX + moveLeft);
   });
 });
+
+
 //start of sam's journey
-/*var sam = document.getElementById('rivendell-sam');
-sam.onmouseover = function() {
-  document.getElementById('seven').style.display = 'block';
-}
-sam.onmouseout = function() {
-  document.getElementById('seven').style.display = 'none';
-}*/
 $(function(){
   var moveLeft = 20;
   var moveDown = 10;
@@ -164,13 +154,9 @@ $(function(){
     $("div#seven").css('top', e.pageY + moveDown).css('left', e.pageX + moveLeft);
   });
 });
-/*var sam = document.getElementById('mines-sam');
-sam.onmouseover = function() {
-  document.getElementById('eight').style.display = 'block';
-}
-sam.onmouseout = function() {
-  document.getElementById('eight').style.display = 'none';
-}*/
+
+
+
 $(function(){
   var moveLeft = 20;
   var moveDown = 10;
@@ -277,13 +263,7 @@ $(function(){
 //end of sams journey
 
 //start of merrys journey
-/*var merry = document.getElementById('rivendell-merry');
-merry.onmouseover = function() {
-  document.getElementById('merry-one').style.display = 'block';
-}
-merry.onmouseout = function() {
-  document.getElementById('merry-one').style.display = 'none';
-}*/
+
 $(function(){
   var moveLeft = 20;
   var moveDown = 10;
@@ -409,13 +389,9 @@ $(function(){
     $("div#merry-six").css('top', e.pageY + moveDown).css('left', e.pageX + moveLeft);
   });
 });
-/*var merry = document.getElementById('minas-merry');
-merry.onmouseover = function() {
-  document.getElementById('merry-seven').style.display = 'block';
-}
-merry.onmouseout = function() {
-  document.getElementById('merry-seven').style.display = 'none';
-}*/
+
+
+
 $(function(){
   var moveLeft = 20;
   var moveDown = -180;
@@ -454,14 +430,9 @@ $(function(){
   });
 });
 //end of merrys journey
-//start of pippins journey
-/*var pip = document.getElementById('rivendell-pip');
-pip.onmouseover = function() {
-  document.getElementById('pip-one').style.display = 'block';
-}
-pip.onmouseout = function() {
-  document.getElementById('pip-one').style.display = 'none';
-}*/
+
+
+//start of pippins journeys
 $(function(){
   var moveLeft = 20;
   var moveDown = 10;
@@ -521,13 +492,8 @@ $(function(){
     $("div#pip-three").css('top', e.pageY + moveDown).css('left', e.pageX + moveLeft);
   });
 });
-/*var pip = document.getElementById('fangorn-pip');
-pip.onmouseover = function() {
-  document.getElementById('pip-four').style.display = 'block';
-}
-pip.onmouseout = function() {
-  document.getElementById('pip-four').style.display = 'none';
-}*/
+
+
 $(function(){
   var moveLeft = 20;
   var moveDown = 10;
@@ -543,13 +509,8 @@ $(function(){
     $("div#pip-four").css('top', e.pageY + moveDown).css('left', e.pageX + moveLeft);
   });
 });
-/*var pip = document.getElementById('isengard-pip');
-pip.onmouseover = function() {
-  document.getElementById('pip-five').style.display = 'block';
-}
-pip.onmouseout = function() {
-  document.getElementById('pip-five').style.display = 'none';
-}*/
+
+
 $(function(){
   var moveLeft = 20;
   var moveDown = 10;
@@ -627,14 +588,9 @@ $(function(){
   });
 });
 //end of pippins journey
+
+
 //start of gandalfs journey 
-/*var gandalf = document.getElementById('rivendell-gandalf');
-gandalf.onmouseover = function() {
-  document.getElementById('gandalf-one').style.display = 'block';
-}
-gandalf.onmouseout = function() {
-  document.getElementById('gandalf-one').style.display = 'none';
-}*/
 $(function(){
   var moveLeft = 20;
   var moveDown = 10;
@@ -650,13 +606,8 @@ $(function(){
     $("div#gandalf-one").css('top', e.pageY + moveDown).css('left', e.pageX + moveLeft);
   });
 });
-/*var gandalf = document.getElementById('mines-gandalf');
-gandalf.onmouseover = function() {
-  document.getElementById('gandalf-two').style.display = 'block';
-}
-gandalf.onmouseout = function() {
-  document.getElementById('gandalf-two').style.display = 'none';
-}*/
+
+
 $(function(){
   var moveLeft = 20;
   var moveDown = 10;
@@ -816,8 +767,9 @@ $(function(){
     $("div#gandalf-nine").css('top', e.pageY + moveDown).css('left', e.pageX + moveLeft);
   });
 });
+//end of gandalf
 
-
+//start of bor
 $(function(){
   var moveLeft = 20;
   var moveDown = 10;
@@ -875,13 +827,7 @@ $(function(){
 //end of boromirs journey
 
 //start of aragon's journey
-/*var aragon = document.getElementById('rivendell-aragon');
-aragon.onmouseover = function() {
-  document.getElementById('aragon-one').style.display = 'block';
-}
-aragon.onmouseout = function() {
-  document.getElementById('aragon-one').style.display = 'none';
-}*/
+
 $(function(){
   var moveLeft = 20;
   var moveDown = 10;
@@ -1074,13 +1020,8 @@ $(function(){
     $("div#aragon-nine").css('top', e.pageY + moveDown).css('left', e.pageX + moveLeft);
   });
 });
-/*var aragon = document.getElementById('dark-aragon');
-aragon.onmouseover = function() {
-  document.getElementById('aragon-ten').style.display = 'block';
-}
-aragon.onmouseout = function() {
-  document.getElementById('aragon-ten').style.display = 'none';
-}*/
+
+
 $(function(){
   var moveLeft = -215;
   var moveDown = 10;
@@ -1096,15 +1037,9 @@ $(function(){
     $("div#aragon-ten").css('top', e.pageY + moveDown).css('left', e.pageX + moveLeft);
   });
 });
-//end of aragon's journey
-//start of legolas's journey
-/*var legolas = document.getElementById('rivendell-lego');
-legolas.onmouseover = function() {
-  document.getElementById('lego-one').style.display = 'block';
-}
-legolas.onmouseout = function() {
-  document.getElementById('lego-one').style.display = 'none';
-}*/
+//end of aragon
+
+// start of legolas 
 $(function(){
   var moveLeft = 20;
   var moveDown = 10;
@@ -1182,13 +1117,8 @@ $(function(){
     $("div#lego-four").css('top', e.pageY + moveDown).css('left', e.pageX + moveLeft);
   });
 });
-/*var legolas = document.getElementById('edoras-lego');
-legolas.onmouseover = function() {
-  document.getElementById('lego-five').style.display = 'block';
-}
-legolas.onmouseout = function() {
-  document.getElementById('lego-five').style.display = 'none';
-}*/
+
+
 $(function(){
   var moveLeft = 20;
   var moveDown = 10;
@@ -1312,13 +1242,7 @@ $(function(){
 //end of legolas's journey
 
 //start of gimlis journey
-/*var gimli = document.getElementById('rivendell-gimli');
-gimli.onmouseover = function() {
-  document.getElementById('gimli-one').style.display = 'block';
-}
-gimli.onmouseout = function() {
-  document.getElementById('gimli-one').style.display = 'none';
-}*/
+
 $(function(){
   var moveLeft = 20;
   var moveDown = 10;
