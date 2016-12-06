@@ -20,6 +20,7 @@ $(function(){
 
   $('div#rivendell').hover(function(e) {
     $('div#one').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#one').hide();
   });
@@ -41,6 +42,7 @@ $(function(){
 
   $('div#mines').hover(function(e) {
     $('div#two').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#two').hide();
   });
@@ -62,6 +64,7 @@ $(function(){
 
   $('div#loth').hover(function(e) {
     $('div#three').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#three').hide();
   });
@@ -84,6 +87,7 @@ $(function(){
 
   $('div#blackgate').hover(function(e) {
     $('div#four').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#four').hide();
   });
@@ -105,6 +109,7 @@ $(function(){
 
   $('div#shelobs').hover(function(e) {
     $('div#five').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#five').hide();
   });
@@ -127,6 +132,7 @@ $(function(){
 
   $('div#mordor').hover(function(e) {
     $('div#six').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#six').hide();
   });
@@ -149,6 +155,7 @@ $(function(){
 
   $('div#rivendell-sam').hover(function(e) {
     $('div#seven').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#seven').hide();
   });
@@ -170,6 +177,7 @@ $(function(){
 
   $('div#mines-sam').hover(function(e) {
     $('div#eight').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#eight').hide();
   });
@@ -191,6 +199,7 @@ $(function(){
 
   $('div#loth-sam').hover(function(e) {
     $('div#nine').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#nine').hide();
   });
@@ -212,6 +221,7 @@ $(function(){
 
   $('div#gate-sam').hover(function(e) {
     $('div#ten').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#ten').hide();
   });
@@ -233,6 +243,7 @@ $(function(){
 
   $('div#shelob-sam').hover(function(e) {
     $('div#eleven').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#eleven').hide();
   });
@@ -254,6 +265,7 @@ $(function(){
 
   $('div#mordor-sam').hover(function(e) {
     $('div#twelve').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#twelve').hide();
   });
@@ -278,6 +290,7 @@ $(function(){
 
   $('div#rivendell-merry').hover(function(e) {
     $('div#merry-one').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#merry-one').hide();
   });
@@ -299,6 +312,7 @@ $(function(){
 
   $('div#mines-merry').hover(function(e) {
     $('div#merry-two').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#merry-two').hide();
   });
@@ -320,6 +334,7 @@ $(function(){
 
   $('div#loth-merry').hover(function(e) {
     $('div#merry-three').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#merry-three').hide();
   });
@@ -341,6 +356,7 @@ $(function(){
 
   $('div#fangorn-merry').hover(function(e) {
     $('div#merry-four').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#merry-four').hide();
   });
@@ -362,6 +378,7 @@ $(function(){
 
   $('div#isengard-merry').hover(function(e) {
     $('div#merry-five').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#merry-five').hide();
   });
@@ -383,6 +400,7 @@ $(function(){
 
   $('div#edoras-merry').hover(function(e) {
     $('div#merry-six').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#merry-six').hide();
   });
@@ -404,6 +422,7 @@ $(function(){
 
   $('div#minas-merry').hover(function(e) {
     $('div#merry-seven').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#merry-seven').hide();
   });
@@ -425,6 +444,7 @@ $(function(){
 
   $('div#black-merry').hover(function(e) {
     $('div#merry-eight').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#merry-eight').hide();
   });
@@ -448,6 +468,7 @@ $(function(){
 
   $('div#rivendell-pip').hover(function(e) {
     $('div#pip-one').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#pip-one').hide();
   });
@@ -469,6 +490,7 @@ $(function(){
 
   $('div#mines-pip').hover(function(e) {
     $('div#pip-two').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#pip-two').hide();
   });
@@ -490,6 +512,7 @@ $(function(){
 
   $('div#loth-pip').hover(function(e) {
     $('div#pip-three').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#pip-three').hide();
   });
@@ -511,6 +534,7 @@ $(function(){
 
   $('div#fangorn-pip').hover(function(e) {
     $('div#pip-four').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#pip-four').hide();
   });
@@ -532,6 +556,7 @@ $(function(){
 
   $('div#isengard-pip').hover(function(e) {
     $('div#pip-five').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#pip-five').hide();
   });
@@ -553,6 +578,7 @@ $(function(){
 
   $('div#edoras-pip').hover(function(e) {
     $('div#pip-six').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#pip-six').hide();
   });
@@ -574,6 +600,7 @@ $(function(){
 
   $('div#minas-pip').hover(function(e) {
     $('div#pip-seven').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#pip-seven').hide();
   });
@@ -582,19 +609,15 @@ $(function(){
     $("div#pip-seven").css('top', e.pageY + moveDown).css('left', e.pageX + moveLeft);
   });
 });
-/*var pip = document.getElementById('gate-pip');
-pip.onmouseover = function() {
-  document.getElementById('pip-eight').style.display = 'block';
-}
-pip.onmouseout = function() {
-  document.getElementById('pip-eight').style.display = 'none';
-}*/
+
+
 $(function(){
   var moveLeft = -230;
   var moveDown = 10;
 
   $('div#gate-pip').hover(function(e) {
     $('div#pip-eight').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#pip-eight').hide();
   });
@@ -618,6 +641,7 @@ $(function(){
 
   $('div#rivendell-gandalf').hover(function(e) {
     $('div#gandalf-one').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#gandalf-one').hide();
   });
@@ -639,6 +663,7 @@ $(function(){
 
   $('div#mines-gandalf').hover(function(e) {
     $('div#gandalf-two').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#gandalf-two').hide();
   });
@@ -660,6 +685,7 @@ $(function(){
 
   $('div#morgoth-gandalf').hover(function(e) {
     $('div#gandalf-three').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#gandalf-three').hide();
   });
@@ -681,6 +707,7 @@ $(function(){
 
   $('div#fangorn-gandalf').hover(function(e) {
     $('div#gandalf-four').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#gandalf-four').hide();
   });
@@ -702,6 +729,7 @@ $(function(){
 
   $('div#edoras-gandalf').hover(function(e) {
     $('div#gandalf-five').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#gandalf-five').hide();
   });
@@ -723,6 +751,7 @@ $(function(){
 
   $('div#helms-gandalf').hover(function(e) {
     $('div#gandalf-six').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#gandalf-six').hide();
   });
@@ -731,19 +760,15 @@ $(function(){
     $("div#gandalf-six").css('top', e.pageY + moveDown).css('left', e.pageX + moveLeft);
   });
 });
-/*var gandalf = document.getElementById('isengard-gandalf');
-gandalf.onmouseover = function() {
-  document.getElementById('gandalf-seven').style.display = 'block';
-}
-gandalf.onmouseout = function() {
-  document.getElementById('gandalf-seven').style.display = 'none';
-}*/
+
+
 $(function(){
   var moveLeft = 20;
   var moveDown = 10;
 
   $('div#isengard-gandalf').hover(function(e) {
     $('div#gandalf-seven').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#gandalf-seven').hide();
   });
@@ -765,6 +790,7 @@ $(function(){
 
   $('div#minas-gandalf').hover(function(e) {
     $('div#gandalf-eight').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#gandalf-eight').hide();
   });
@@ -773,19 +799,15 @@ $(function(){
     $("div#gandalf-eight").css('top', e.pageY + moveDown).css('left', e.pageX + moveLeft);
   });
 });
-/*var gandalf = document.getElementById('black-gandalf');
-gandalf.onmouseover = function() {
-  document.getElementById('gandalf-nine').style.display = 'block';
-}
-gandalf.onmouseout = function() {
-  document.getElementById('gandalf-nine').style.display = 'none';
-}*/
+
+
 $(function(){
   var moveLeft = -215;
   var moveDown = 10;
 
   $('div#black-gandalf').hover(function(e) {
     $('div#gandalf-nine').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#gandalf-nine').hide();
   });
@@ -794,21 +816,15 @@ $(function(){
     $("div#gandalf-nine").css('top', e.pageY + moveDown).css('left', e.pageX + moveLeft);
   });
 });
-//end of gandalfs journey
-//start of boromirs journey
-/*var boromir = document.getElementById('rivendell-bor');
-boromir.onmouseover = function() {
-  document.getElementById('bor-one').style.display = 'block';
-}
-boromir.onmouseout = function() {
-  document.getElementById('bor-one').style.display = 'none';
-}*/
+
+
 $(function(){
   var moveLeft = 20;
   var moveDown = 10;
 
   $('div#rivendell-bor').hover(function(e) {
     $('div#bor-one').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#bor-one').hide();
   });
@@ -817,19 +833,15 @@ $(function(){
     $("div#bor-one").css('top', e.pageY + moveDown).css('left', e.pageX + moveLeft);
   });
 });
-/*var boromir = document.getElementById('mines-bor');
-boromir.onmouseover = function() {
-  document.getElementById('bor-two').style.display = 'block';
-}
-boromir.onmouseout = function() {
-  document.getElementById('bor-two').style.display = 'none';
-}*/
+
+
 $(function(){
   var moveLeft = 20;
   var moveDown = 10;
 
   $('div#mines-bor').hover(function(e) {
     $('div#bor-two').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#bor-two').hide();
   });
@@ -851,6 +863,7 @@ $(function(){
 
   $('div#loth-bor').hover(function(e) {
     $('div#bor-three').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#bor-three').hide();
   });
@@ -875,6 +888,7 @@ $(function(){
 
   $('div#rivendell-aragon').hover(function(e) {
     $('div#aragon-one').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#aragon-one').hide();
   });
@@ -896,6 +910,7 @@ $(function(){
 
   $('div#mines-aragon').hover(function(e) {
     $('div#aragon-two').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#aragon-two').hide();
   });
@@ -917,6 +932,7 @@ $(function(){
 
   $('div#loth-aragon').hover(function(e) {
     $('div#aragon-three').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#aragon-three').hide();
   });
@@ -938,6 +954,7 @@ $(function(){
 
   $('div#fangorn-aragon').hover(function(e) {
     $('div#aragon-four').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#aragon-four').hide();
   });
@@ -959,6 +976,7 @@ $(function(){
 
   $('div#edoras-aragon').hover(function(e) {
     $('div#aragon-five').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#aragon-five').hide();
   });
@@ -980,6 +998,7 @@ $(function(){
 
   $('div#helms-aragon').hover(function(e) {
     $('div#aragon-six').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#aragon-six').hide();
   });
@@ -1001,6 +1020,7 @@ $(function(){
 
   $('div#isengard-aragon').hover(function(e) {
     $('div#aragon-seven').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#aragon-seven').hide();
   });
@@ -1022,8 +1042,10 @@ $(function(){
 
   $('div#dead-aragon').hover(function(e) {
     $('div#aragon-eight').show();
+
   }, function() {
     $('div#aragon-eight').hide();
+    $(this).css('cursor','pointer');
   });
 
   $('div#dead-aragon').mousemove(function(e) {
@@ -1045,6 +1067,7 @@ $(function(){
     $('div#aragon-nine').show();
   }, function() {
     $('div#aragon-nine').hide();
+    $(this).css('cursor','pointer');
   });
 
   $('div#minas-aragon').mousemove(function(e) {
@@ -1066,6 +1089,7 @@ $(function(){
     $('div#aragon-ten').show();
   }, function() {
     $('div#aragon-ten').hide();
+    $(this).css('cursor','pointer');
   });
 
   $('div#dark-aragon').mousemove(function(e) {
@@ -1450,6 +1474,7 @@ $(function(){
     $('div#gimli-eight').show();
   }, function() {
     $('div#gimli-eight').hide();
+    $(this).css('cursor','pointer');
   });
 
   $('div#dead-gimli').mousemove(function(e) {
@@ -1471,6 +1496,7 @@ $(function(){
     $('div#gimli-nine').show();
   }, function() {
     $('div#gimli-nine').hide();
+    $(this).css('cursor','pointer');
   });
 
   $('div#minas-gimli').mousemove(function(e) {
@@ -1490,8 +1516,10 @@ $(function(){
 
   $('div#dark-gimli').hover(function(e) {
     $('div#gimli-ten').show();
+    $(this).css('cursor','pointer');
   }, function() {
     $('div#gimli-ten').hide();
+    $(this).css('cursor','pointer');
   });
 
   $('div#dark-gimli').mousemove(function(e) {
