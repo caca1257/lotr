@@ -1,3 +1,4 @@
+
 body{
 
 	background-color: #303034;
@@ -32,30 +33,19 @@ img{
 
 }
 /*for frodo*/
-div#one, #two, #three, #four, #five {
+div#one, #two, #three, #four, #five, #six {
   display: none;
   position: absolute;
   width: 280px;
   padding: 10px;
-  background:#303034; /*rgba(255,255,255,0.8);*/
+  background: #ffffff;/*#EBEBFF;*//*rgba(48,48,52, .9);*//*#303034;*/ /*rgba(255,255,255,0.8);*/
   color: #774f27;
   border: 1px solid #1a1a1a;
   font-size: 1.2em;
   font-style: italic;
 
 }
-/*frodo*/
-div#six{
-  display: none;
-  position: absolute;
-  width: 280px;
-  padding: 10px;
-  background:#303034; /*rgba(255,255,255,0.8);*/
-  color: #774f27;
-  border: 1px solid #1a1a1a;
-  font-size: 1.1em;
-   font-style: italic;
-}
+
 /*sam*/
 div#seven, #eight, #nine, #ten, #eleven{
 	display: none;
