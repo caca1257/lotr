@@ -354,7 +354,7 @@ merry.onmouseout = function() {
 }*/
 $(function(){
   var moveLeft = 20;
-  var moveDown = 10;
+  var moveDown = -10;
 
   $('div#isengard-merry').hover(function(e) {
     $('div#merry-five').show();
@@ -737,7 +737,7 @@ gandalf.onmouseout = function() {
 }*/
 $(function(){
   var moveLeft = 20;
-  var moveDown = 10;
+  var moveDown = -150;
 
   $('div#minas-gandalf').hover(function(e) {
     $('div#gandalf-eight').show();

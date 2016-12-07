@@ -42,12 +42,13 @@ div#one, #two, #three, #four, #five, #six {
   color: #774f27;
   border: 1px solid #1a1a1a;
   font-size: 1.2em;
-  font-style: italic;
+  font-family: 'Droid Serif', serif;
+  line-height: 160%;
 
 }
 
 /*sam*/
-div#seven, #eight, #nine, #ten, #eleven{
+div#seven, #eight, #nine, #ten, #eleven, #twelve{
 	display: none;
   position: absolute;
   width: 280px;
@@ -56,18 +57,8 @@ div#seven, #eight, #nine, #ten, #eleven{
   color: #dab56c;
   border: 1px solid #1a1a1a;
   font-size: 1.2em;
-   font-style: italic;
-}
-div#twelve{
-	display: none;
-  position: absolute;
-  width: 280px;
-  padding: 10px;
-  background:#303034; /*rgba(255,255,255,0.8);*/
-  color: #dab56c;
-  border: 1px solid #1a1a1a;
-  font-size: 1.2em;
-   font-style: italic;
+  font-family: 'Droid Serif', serif;
+  line-height: 160%;
 }
 
 /*merry*/
@@ -81,7 +72,8 @@ div#merry-one, #merry-two, #merry-three, #merry-four, #merry-five,
   color: #99cc00;
   border: 1px solid #1a1a1a;
   font-size: 1.2em;
-   font-style: italic;
+  font-family: 'Droid Serif', serif;
+  line-height: 160%;
 }
 div#merry-eight{
 	display: none;
@@ -92,7 +84,8 @@ div#merry-eight{
   color: #99cc00;
   border: 1px solid #1a1a1a;
   font-size: 1.2em;
-   font-style: italic;
+  font-family: 'Droid Serif', serif;
+  line-height: 160%;
 }
 div#pip-one, #pip-two, #pip-three, #pip-four, #pip-five, #pip-six,
 #pip-seven{
@@ -104,7 +97,8 @@ div#pip-one, #pip-two, #pip-three, #pip-four, #pip-five, #pip-six,
   color: #ff6600;
   border: 1px solid #1a1a1a;
   font-size: 1.2em;
-   font-style: italic;
+  font-family: 'Droid Serif', serif;
+  line-height: 160%;
 }
 div#pip-eight{
 	display: none;
@@ -115,7 +109,8 @@ div#pip-eight{
   color: #ff6600;
   border: 1px solid #1a1a1a;
   font-size: 1.2em;
-   font-style: italic;
+  font-family: 'Droid Serif', serif;
+  line-height: 160%;
 }
 div#gandalf-one, #gandalf-two, #gandalf-three, #gandalf-four, #gandalf-five,
 #gandalf-six,#gandalf-seven,#gandalf-eight, #gandalf-nine{
@@ -127,7 +122,8 @@ div#gandalf-one, #gandalf-two, #gandalf-three, #gandalf-four, #gandalf-five,
   color: #ffffff;
   border: 1px solid #1a1a1a;
   font-size: 1.2em;
-  font-style: italic;
+  font-family: 'Droid Serif', serif;
+  line-height: 160%;
 }
 div#bor-one, #bor-two, #bor-three{
 	display: none;
@@ -138,7 +134,8 @@ div#bor-one, #bor-two, #bor-three{
   color:#993366;
   border: 1px solid #1a1a1a;
   font-size: 1.2em;
-  font-style: italic;
+  font-family: 'Droid Serif', serif;
+  line-height: 160%;
 }
 div#aragon-one, #aragon-two, #aragon-three, #aragon-four, #aragon-five, 
 #aragon-six, #aragon-seven, #aragon-eight, #aragon-nine,
@@ -151,7 +148,8 @@ div#aragon-one, #aragon-two, #aragon-three, #aragon-four, #aragon-five,
   color:#aa2222;
   border: 1px solid #1a1a1a;
   font-size: 1.2em;
-  font-style: italic;
+  font-family: 'Droid Serif', serif;
+  line-height: 160%;
 }
 div#lego-one, #lego-two, #lego-three, #lego-four, #lego-five, 
 #lego-six, #lego-seven, #lego-eight, #lego-nine,
@@ -164,7 +162,8 @@ div#lego-one, #lego-two, #lego-three, #lego-four, #lego-five,
   color:#3366ff;
   border: 1px solid #1a1a1a;
   font-size: 1.2em;
-  font-style: italic;
+  font-family: 'Droid Serif', serif;
+  line-height: 160%;
 }
 div#gimli-one, #gimli-two, #gimli-three, #gimli-four, #gimli-five, 
 #gimli-six, #gimli-seven, #gimli-eight, #gimli-nine,
@@ -173,9 +172,14 @@ div#gimli-one, #gimli-two, #gimli-three, #gimli-four, #gimli-five,
   position: absolute;
   width: 280px;
   padding: 10px;
-  background:#303034; /*rgba(255,255,255,0.8);*/
+  background:#fff;/*#303034;*/ /*rgba(255,255,255,0.8);*/
   color:#0a6636;
   border: 1px solid #1a1a1a;
   font-size: 1.2em;
-  font-style: italic;
+  font-family: 'Droid Serif', serif;
+  line-height: 160%;
+}
+
+.vid{
+  font-family: 'Source Sans Pro', sans-serif;
 }
